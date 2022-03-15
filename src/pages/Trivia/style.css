@@ -1,0 +1,29 @@
+.Trivia {
+  height: 100%;
+}
+
+.Trivia button {
+  border: 4px solid #e3ecf7 !important;
+  font-weight: bold !important;
+  opacity: 0.5;
+  text-align: start !important;
+  transition: 0.3s !important;
+  width: 100%;
+}
+
+.Trivia button:active {
+  background-color: #e3ecf7;
+}
+
+.Trivia button:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4) !important;
+  opacity: 1;
+}
+
+.Trivia .card {
+  border-radius: 1rem;
+}
+
+.Trivia .question-header {
+  opacity: 0.5;
+}
